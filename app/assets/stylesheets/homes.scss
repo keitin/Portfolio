@@ -11,3 +11,21 @@
   color: white !important;
   text-shadow: 1px 1px 1px rgba(31, 55, 69, 0.4) !important;
 }
+
+@media screen and (min-width: 800px) {
+  .photo-graphic {
+      width: 50% !important;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-graphic {
+    width: 80% !important;
+
+  }
+}
+
+.graphic-item {
+  margin-bottom: 50px !important;
+}
