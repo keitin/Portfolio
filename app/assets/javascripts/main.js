@@ -44,9 +44,10 @@ $(document).ready(function() {
 	// Mobile Navigation
 	$('.nav-toggle').on('click', function() {
 		$(this).toggleClass('close-nav');
+		console.log("hoge")
 		nav.toggleClass('open');
 		return false;
-	});	
+	});
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
