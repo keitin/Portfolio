@@ -7,4 +7,8 @@ class HomesController < ApplicationController
 
   def graphics
   end
+
+  def books
+  end
+  
 end
