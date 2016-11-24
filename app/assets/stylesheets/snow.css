@@ -1,0 +1,10 @@
+
+
+.snow {
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  z-index: 100000;
+}
