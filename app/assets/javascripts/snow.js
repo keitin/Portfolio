@@ -17,16 +17,11 @@ Snow = function() {
 $(window).on("load", function() {
 
 
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 100; i++) {
     var snow = Snow();
   }
    
-  var fall = function() {
-    for (var i = 0; i < 10; i++) {
-      var snow = Snow();
-    }
-  }
-  setInterval(fall, 1000);
+
   
   var move = function(){
 
@@ -35,7 +30,7 @@ $(window).on("load", function() {
       var rect = elements[i].getBoundingClientRect() ;
       var positionY = rect.top + window.pageYOffset ;
       var positionX = rect.left + window.pageXOffset ;
-      positionY += 3;
+      positionY += 1;
       console.log(positionY);
 
       if (i % 3 == 0) {
@@ -51,7 +46,7 @@ $(window).on("load", function() {
       elements[i].style.left = positionX + "px";
 
       if (positionY > window.parent.screen.height * 3) {
-        elements[i].style.display = "none";
+        elements[i].style.top = 0 + "px";
       }
     }
   } 
