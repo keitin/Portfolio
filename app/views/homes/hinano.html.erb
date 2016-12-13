@@ -1,0 +1,51 @@
+<section id="portfolio" class="section portfolio hinano-body">
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"> 
+        <img src="<%= asset_path("hina/top.jpg") %>" alt="Chania">
+        <div class="carousel-caption">
+          <h3 class="hearder-title">Happy Birthday To Hinano</h3>
+          <p class="hearder-title">2016/12/15</p>
+        </div>
+      </div>
+    </div>
+    <div class="album-items">
+
+    <div class="hina-middle">
+      <div class="title">
+        ひなはけいの太陽
+      </div>
+
+      ひなちゃんお誕生日おめでとう！<br>
+      かわいいひなちゃんを<br>
+      写真で振り返りましょう。
+    </div>
+
+    <div id="wrapper">
+      <div id="columns">
+          <% for num in 1..60 %>
+            <div class="pin">
+                <img src="<%= asset_path("hina/#{num}.jpg") %>" />
+                
+            </div>
+          <% end %>
+      </div>
+  </div>
+  <div class="hina-messe">
+    <div class="title">ひなのへ</div>
+    <div class="text">
+      ひなちゃん。お誕生日おめでとう！！：）２３歳だね。２２歳の一年間は、大分・バンコク・ひな卒業・就職・瀬戸内とたくさんあったんごね。今年の誕生日は去年並の豪華さはないけど、毎年毎年大好きです。２３歳の１年間も楽しく一緒にいましょう。けいが就活終わったら美味しいものたべよ！行きたいところ行こ！楽しい一年にしましょ＾＾
+      <br><br>
+      ひながいるからけいは頑張れます。いつもありがとうね。これからもよろしくお願いします！末永く。
+      <br><br>
+      <div class="from">けい より</div>
+
+    </div>
+  </div>
+
