@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
 #header .header-content {
-	width: 90%;
+	width: 100%;
 }
 .nav-toggle {
 	display: block;

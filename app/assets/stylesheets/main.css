@@ -84,7 +84,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding-top: 100px;
 }
 .no-padding {
 	padding: 0;
@@ -107,13 +107,14 @@ ul li {
 	margin: 0 auto;
 	padding: 40px 0;
 	width: 100%;
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(255, 255, 255);
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
 #header .logo {
+	padding-left: 6px;
 	font-size: 21px;
 	color: #000;
 	font-weight: 700;
@@ -347,7 +348,6 @@ ul li {
 .services {
 	width: 94%;
 	margin: auto;
-	background-color: #f2f2f2;
 }
 .services h4 {
 	font-size: 33px;
@@ -365,11 +365,23 @@ ul li {
 	color: #6c7279;
 	font-size: 13px;
 	font-weight: 400;
-	margin-top: 7%;
 }
 .services-content {
-	margin: 50px;
+	text-align: center;
+    margin-top: 100px;
 }
+
+.services-links {
+	margin-top: 20px;	
+}
+
+.services-links a {
+	color: #6c7279;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
 .services-content li a {
 	color: #6c7279;
 	line-height: 30px;

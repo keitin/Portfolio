@@ -3,7 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
+  background-color: rgb(255, 255, 255);
+}
+
+.my-links {
+  width: 283px;
+  margin: auto;
+}
+
+.my-links li {
+  float: left;
+  margin-right: 10px;
   background-color: rgb(245, 245, 245);
+  padding: 0px 5px;
+  border-radius: 3px;
+  margin-top: 5px;
 }
 
 .programingList li {
@@ -27,6 +41,9 @@ body {
   .photo-graphic {
     width: 80% !important;
 
+  }
+  body {
+    padding: 0px;
   }
 }
 
@@ -151,9 +168,9 @@ body {
  
 @media (min-width: 960px) {
     #columns {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
     }
 }
  
